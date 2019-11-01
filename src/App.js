@@ -1,26 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import withSocket from './utils/socketSubscriber'
+import Chess from "./components/Chess"
+import styled, { createGlobalStyle } from "styled-components"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const Global = createGlobalStyle`
+  html, body, #root {
+    height: 100%;
+  }
+`
+
+const StyledContainer = styled.div`
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+
+`
+
+class App extends React.Component {
+  render() {
+    // TODO: Part 1
+  console.log(this.props.players[this.props.id])
+    return <StyledContainer>
+      <Global/>
+      {JSON.stringify(this.props)}
+      <Chess/>
+    </StyledContainer>
+  }
 }
 
-export default App;
+// TODO: Part 1

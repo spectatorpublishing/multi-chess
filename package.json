@@ -3,9 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "chess": "^0.4.2",
+    "chess.js": "^0.10.2",
+    "chessboardjsx": "^2.4.2",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
-    "react-scripts": "3.2.0"
+    "react-scripts": "3.2.0",
+    "styled-components": "^4.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
