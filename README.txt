@@ -27,7 +27,7 @@ Now that you have been working on migration for a semester, and have gained some
 
 Your job is to code a multiplayer chess website, basically like lichess or sparkchess or any of the 100 other online chess websites out there—but much much worse.
 
-I basically pulled this project out of my 🍑when I found out that Arsalaan wouldn't be here, so I apologize if this is all garbage that makes no sense expect you all to finish this lab in its entirety.
+I basically pulled this project out of my 🍑when I found out that Arsalaan wouldn't be here, so I a̶p̶o̶l̶o̶g̶i̶z̶e̶ ̶i̶f̶ ̶t̶h̶i̶s̶ ̶i̶s̶ ̶a̶l̶l̶ ̶g̶a̶r̶b̶a̶g̶e̶ ̶t̶h̶a̶t̶ ̶m̶a̶k̶e̶s̶ ̶n̶o̶ ̶s̶e̶n̶s̶e̶ expect you all to finish this lab in its entirety.
 
 To get started, clone the repository with the starter code:
 
