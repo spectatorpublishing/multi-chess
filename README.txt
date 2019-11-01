@@ -31,11 +31,11 @@ I basically pulled this project out of my 🍑when I found out that Arsalaan wou
 
 To get started, clone the repository with the starter code:
 
-    $ git clone
+    $ git clone https://github.com/spectatorpublishing/multi-chess.git
 
 After cloning the repository, you can install the dependencies with:
 
-    $ 
+    $ npm install
 
 The code could be run with:
 
